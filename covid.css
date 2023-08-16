@@ -1,0 +1,756 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.section 
+{
+    min-height: 100vh;
+    padding: 1rem 9%;
+    padding-top: 8rem;
+}
+
+.home
+{
+    background: url(images/virus2.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.home .cont
+{
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.home .cont h1
+{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.home .cont p
+{
+    font-size: 2rem;
+    color: rgb(255, 241, 46);
+    font-weight: normal;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: .7rem 3rem;
+    color: #fff;
+    background: rgb(15, 14, 15);
+    border-radius: 40px;
+    box-shadow: #111;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background: #f4f4f8;
+    color: #050801;
+    box-shadow: 0 0 5px #e9eeee,
+                0 0 20px #f5fafa,
+                0 0 15px #e1e5e6,
+                0 0 50px #e1e5e6 ;
+}
+
+.about
+{
+  background:#fff;
+  margin: 20px;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 45px;
+  color:#111;
+  margin-top: 30px;
+}
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+.contentBx p
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+  padding-left: 10px;
+}
+
+.w50
+{
+  max-width: 50%;
+}
+
+.img1
+{
+  max-width: 100%;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.services
+{
+  background:#2f2f30;
+  padding-bottom: 40px;
+}
+
+.services .headwhite
+{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.services .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.services .content .serviceBx
+{
+  padding: 40px 20px;
+  background: #9599a1;
+  color: #111;
+  max-width: 370px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.services .content .serviceBx:hover
+{
+  background: #8ea5d4;
+}
+
+.services .content .serviceBx h2
+
+{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.services .content .serviceBx p
+{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prevent
+{
+  background: rgb(120, 159, 231);
+}
+.prevent-heading
+{
+  text-align: center;
+  color: var(--blue);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.prevent .box-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prevent .box-container .box
+{
+  flex:1 1 25em;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.prevent .box-container .box img
+{
+  height: 12rem;
+  padding: 1rem;
+}
+
+.prevent .box-container .box h3
+{
+  color: var(--blue);
+  font-size: 1.4rem;
+}
+
+.prevent .box-container .box p
+{
+  color: var(--dark-blue);
+  font-size: 1.0rem;
+  padding: 1rem;
+}
+
+.prevent .box-container .box:hover
+{
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
+
+.symptoms
+{
+  background: url(Images/virus2.jpg) no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
+}
+
+.symptoms h1
+{
+  color: #fff;
+  padding-top: 2rem;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.symptoms .column
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.symptoms .column .main-image img
+{
+  width:43vh;
+}
+
+.symptoms .column .box-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.symptoms .column .box-container .box
+{
+     margin: 1rem;
+     text-align: center;
+}
+
+.symptoms .column .box-container img
+{
+  width: 20rem;
+  padding: 1rem;
+}
+
+.symptoms .column .box-container .box h3
+{
+  font-size: 2rem;
+  color: #fff;
+}
+
+.precautions
+{
+  background: #fff;
+}
+
+.precautions .column
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.precautions .column .box-container
+{
+  margin: 1.5rem;
+  flex: 1 1 50rem;
+  border: .1rem solid rgba(0, 0, 0, 1);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+.precautions .column .box-container .title
+{
+  padding: 1.5rem .5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  background: rgb(69, 69, 212);
+  color: #fff;
+
+}
+
+.precautions .column .box-container:last-child .title
+{
+  background: #ff3300;
+}
+
+.precautions .column .box-container .box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box img
+{
+  width: 15rem;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box h3
+{
+  font-size: 2rem;
+  color: #2624a1b9;
+}
+
+.precautions .column .box-container .box p
+{
+  font-size: 1.2rem;
+  color: rgb(4, 4, 68);
+  padding: 1rem 0;
+}
+
+.hand-wash
+{
+  background: #244061;
+}
+
+.hand-wash h1
+{
+  font-size: 3.5rem;
+  color: #e4ccc6;
+}
+
+.hand-wash .column
+{
+  display: flex;
+  justify-content: center;
+}
+
+.hand-wash .column .main-image img
+{
+  width: 25vw;
+}
+
+.hand-wash .column .box-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hand-wash .column .box-container .box
+{
+  text-align: center;
+  margin: 2rem;
+}
+
+.hand-wash .column .box-container .box img
+{
+  width: 17rem;
+  height: 17rem;
+  padding: 1rem;
+}
+
+.hand-wash .column .box-container .box h3
+{
+  font-size: 1.5rem;
+  color: #e4ccc6;
+}
+
+.Rate-us
+{
+  background: #cfd2d6;
+}
+
+.formBx
+{
+  min-width: 60%;
+}
+
+.formBx form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.formBx form h3, 
+.contactInfo h3
+{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.formBx form input,
+.formBx form textarea
+{
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: #222;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: none;
+}
+
+.formBx form textarea
+{
+  min-height: 200px;
+  border-radius: 4px;
+  max-width: 650px;
+}
+
+.formBx form input[type="submit"]
+{
+  max-width: 100px;
+  background: #244061;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.formBx form input[type="submit"]:hover
+{
+  background: #111;
+  border-radius: 14px;
+  box-shadow: #244061;
+}
+
+.formBx form input[type="text"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.formBx form input[type="email"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.content .contactInfo
+{
+  max-width: 40%;
+  padding: 40px;
+}
+
+.content .contactInfoBx
+{
+  position: relative;
+}
+
+.content .contactInfoBx .box
+{
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+}
+
+.content .contactInfoBx .box .Icon
+{
+  padding-top: 4px;
+  min-width: 40px;
+  color: #111;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  font-size: 24px;
+}
+
+.content .contactInfoBx .box .text
+{
+  display: flex;
+  font-size: 16px;
+  color: #111;
+  flex-direction: column;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.contactInfoBx .box .text h3
+{
+  font-weight: 500;
+  color: #240c8f;
+  margin-bottom: 10px;
+}
+
+
+
+/*Responsive Actions */
+
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+
+  .heading h2
+  {
+      font-size: 24px;
+  }
+
+  .contentBx h3
+  {
+      font-size: 20px;
+  }
+
+  .content
+  {
+      flex-direction: column;
+  }
+
+  .w50
+  {
+      margin-bottom: 20px;
+  }
+
+  .img1
+  {
+      max-width: 100%;
+      margin-bottom: -30px;
+      margin-right: 10px;
+      margin-left: 120px;
+  }
+
+  .heading h2
+  {
+      font-weight: 700;
+      font-size: 40px;
+      color:#111;
+      margin-top: 20px;
+  }
+  .contentBx p
+  {
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #111;
+    padding-left: 10px;
+  }
+
+}
+
+
+@media (max-width: 1060px)
+{
+  header, header .sticky
+  {
+    padding: 20px 50px;
+    z-index: 1000;
+  }
+
+  .menu
+  {
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 2);
+  }
+
+  .menu .active
+  {
+    left: 0;
+  }
+
+  header ul li a
+  {
+    color: rgb(56, 36, 36);
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  .toggle
+  {
+    width: 40px;
+    height: 40px;
+    background: url(Covid\ Images/menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+
+  .toggle.active
+  {
+    background: url(Covid\ Images/close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+
+  header .sticky .toggle
+  {
+    filter: invert(1);
+  }
+  .section
+  {
+    padding: 1rem 3%;
+    padding-top: 8rem;
+  }
+
+  #menu
+  {
+    display: block;
+  }
+
+  .prevent .box-container .box h3
+  {
+    font-size: 4rem;
+  }
+
+  .prevent .box-container .box p
+  {
+    font-size: 3rem;
+  }
+
+  .symptoms .column .main-image img
+  {
+    display: none;
+  }
+
+  .symptoms .column .box-container .box img
+  {
+    width: 20rem;
+  }
+
+  .hand-wash .column .main-image img
+  {
+    display: none;
+  }
+}
+
+@media (max-width:760px)
+{
+  html
+  {
+    font-size: 50%;
+  }
+
+  .home .cont h1
+  {
+    font-size: 4rem;
+  }
+
+  .home .cont p
+  {
+    font-size: 3.5rem;
+  }
+
+  .hand-wash .column .main-image img
+  {
+    width: 25vw;
+    height: 40px;
+  }
+
+  .services .content .serviceBx h2
+
+{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.services .content .serviceBx p
+{
+  font-size: 15px;
+  font-weight: 400;
+} 
+
+}
+
+@media (max-width:450px)
+{
+  .home .cont h1
+  {
+    font-size: 3.5rem;
+  }
+
+  .home .cont p
+  {
+    font-size: 2.5rem;
+  }
+
+  
+}
+
+@media (max-width:250px)
+{
+  .img1
+  {
+      display: none;
+  }
+
+  .heading h2
+  {
+      font-weight: 700;
+      font-size: 30px;
+      color:#111;
+      margin-top: 20px;
+  }
+}

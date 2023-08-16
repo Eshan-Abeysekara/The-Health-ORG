@@ -1,0 +1,449 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.section
+{
+    min-height: 100vh;
+    padding: 1rem 9%;
+    padding-top: 8rem;
+}
+
+.home
+{
+    background: url(Images/5.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.home .cont
+{
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.home .cont h1
+{
+    font-size: 4rem;
+    color: white;
+}
+
+.home .cont p
+{
+    font-size: 2rem;
+    color: rgb(255, 241, 46);
+    font-weight: normal;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: .7rem 3rem;
+    color: #fff;
+    background: rgb(15, 14, 15);
+    border-radius: 40px;
+    box-shadow: #111;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background: #f4f4f8;
+    color: #050801;
+    box-shadow: 0 0 5px #e9eeee,
+                0 0 20px #f5fafa,
+                0 0 15px #e1e5e6,
+                0 0 50px #e1e5e6 ;
+}
+.about
+{
+  background:#fff;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 55px;
+  color:rgb(219, 107, 107);
+  padding-top: 70px;
+}
+
+.content1
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+.contentBx p
+{
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: rgb(58, 82, 90);
+  padding-left: 40px;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.w50
+{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 30px;
+}
+
+.mainbox
+{
+  background: url(Images/59.jpg) no-repeat;
+  background-size: cover;
+  background-position:center ;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.heading1
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  padding: 1rem;
+}
+
+.main
+{ 
+  width: auto;
+  margin: 60px auto 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.box1
+{
+  width: 330px;
+  height: 680px;
+  background-color: gray;
+  float: left;
+  border: 1px solid black;
+  padding: 40px;
+  margin-left: 0px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: black;
+}
+
+.heading2 
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  text-shadow: black;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.heading4 
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  text-shadow: black;
+  padding: 1rem;
+  color: rgb(231, 50, 50);
+}
+
+
+.sym
+{
+  background: white;
+  font-family: sans-serif;
+}
+
+.sym1
+{
+  width: 100%;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+.box3{
+  position: relative;
+  width: 300px;
+  height: 300px ;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.h1{
+  color: black;
+  text-align: center;
+}
+
+
+.heading3
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(15, 15, 15);
+  font-size: 3rem;
+}
+.w50
+{
+  max-width: 50%;
+}
+.pre
+{
+  background: rgb(157, 241, 124);
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.prebox
+{
+  width: 1280px;
+  margin: 70px auto 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.prebox1
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: rgb(241, 241, 107);
+  box-sizing: border-box;
+  display: inline-block;
+}
+.prebox2
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: white;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.preh1
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  padding: 3rem;
+  color: rgb(139, 59, 139);
+}
+
+.preh2
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+}
+
+.nothing
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 20pt;
+  color: rgb(224, 21, 21);
+}
+
+.preh3
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 15pt;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+}
+
+.img
+{
+  width: 100%;
+  height: 350px;
+}
+
+.h5
+{
+  
+  font-size: 1rem;
+  padding: rem;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  line-height: 30px;
+}
+
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 10px 30px;
+      font-size: 25x;
+  }
+
+  .heading h2
+  {
+      font-size: 35px;
+  }
+
+  .contentBx h3
+  {
+      font-size: 20px;
+  }
+
+  .content1
+  {
+      flex-direction: column;
+      margin-bottom: -10px;
+  }
+
+  .w50
+  {
+      margin-bottom: -100px;
+      margin-top: 30px;
+      width: 100%;
+      margin-right: 50px;
+  }
+
+  .heading2 
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: black;
+    padding: 1rem;
+    color: rgb(252, 252, 252);
+  }
+
+  .preh2
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    padding: 1rem;
+    color: rgb(223, 204, 204);
+  }
+
+  .h5
+  {
+    font-style: italic;
+    font-size: 14px;
+    padding: 1rem;
+    color: rgb(10, 10, 10);
+  }
+
+  .main
+  {
+    margin-left: 0px;
+  }
+
+  .sym1
+  {
+    width: 100%;
+    margin: 70px auto 0;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+
+  .prebox
+  {
+    width: 1280px;
+    padding: 200px;
+    margin-right: -200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+    margin-left: -60px;
+
+  } 
+
+  .prebox1
+  {
+    width: 400px;
+    height: 450px;
+    background: rgb(241, 241, 107);
+    box-sizing: border-box;   
+  }
+  .prebox2
+  {
+    width: 400px;
+    height: 450px;
+    background: white;
+    box-sizing: border-box; 
+  }
+
+  .preh2
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .preh3
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+  }
+}
+

@@ -1,0 +1,239 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section
+{
+  padding: 100px;
+}
+
+.banner
+{
+  position: relative;
+  min-height: 100vh;
+  background:url(images/Background.jpg);
+  background-size: cover;
+  background-position:right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h2
+{
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner p
+{
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.btn
+{
+  position: relative;
+  background:#F4EDED;
+  display: inline-block;
+  color: #111;
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration:none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.btn:hover
+{
+  background: #111;
+  color: #FFFFFF;
+}
+
+.about
+{
+  background:#fff;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 40px;
+  color:#111;
+}
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contentBx h3
+{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+.contentBx p
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.contentBx p::first-letter
+{
+  font-size: xx-large;
+}
+
+.w50
+{
+  min-width: 50%;
+}
+
+.img
+{
+  max-width: 90%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.services
+{
+  background:#2f2f30;
+}
+
+.heading .white
+{
+  color: #fff;
+}
+
+.services .heading h2 , p
+{
+  color: #fff;
+}
+
+.services .heading p
+{
+  font-size: 20px;
+  margin: 10px;
+}
+
+.services .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.services .content .serviceBx
+{
+  padding: 40px 20px;
+  background: #222;
+  color: #fff;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 15px;
+
+}
+
+.services .content .serviceBx:hover
+{
+  background: #2196f3;
+}
+
+.services .content .serviceBx img
+{
+  max-height: 80px;
+  max-width: 80px;
+  filter: invert(1);
+  margin-bottom: 22px;
+}
+
+.services .content .serviceBx h2
+
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+
+  .heading h2
+  {
+      font-size: 24px;
+  }
+
+  .contentBx h3
+  {
+      font-size: 20px;
+  }
+
+  .content
+  {
+      flex-direction: column;
+  }
+
+  .w50
+  {
+      margin-bottom: 20px;
+  }
+}
+

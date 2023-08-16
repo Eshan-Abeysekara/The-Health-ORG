@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mainbody.css">
+        <link rel="stylesheet" type="text/css" href="Footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="covid.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Covid-19</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">The HealthORG</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="Coverpage.html">Home</a></li>
+                <li><a href="Covid.html">Covid-19</a></li>
+                <li><a href="cancer.html">Cancer</a></li>
+                <li><a href="dengueFever.html">Dengue</a></li>
+                <li><a href="kidney.html">Kidney</a></li>
+                <li><a href="Diabetes.html">Diabetics</a></li>
+                <li><a href="WFP.html">WFP</a></li>
+            </ul>
+        </header>
+
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY>0);
+            });
+
+            function toggleMenu()
+            {
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+        </script>
+
+     
+
+     <section class="home" id="home">
+        <div class="cont">
+            <h1>Stay Safe Stay In</h1>
+            <p>Protect Yourself from Covid-19 Pandemic</p>
+            <a href="#about" class="btn">Details</a>
+        </div>
+     </section>
+
+     <section class="about" id="about">
+        <div class="heading">
+            <h2>COVID-19 Pandemic</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx">
+                <p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
+
+                    Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.</p><br>
+                <p>Covid-19 is arguably the most deadly plague in the world right now. The epidemic has spread to many countries around the world and has now claimed a large number of lives.<br> <br></p> 
+                <p>The exact origin of the Covid virus, which has drastically changed the world's economy as well as the general way of life, has not yet been identified.<br></p>
+                <p>This web page will give you all the tips you need to protect yourself from this Covid epidemic as well as a description of the vaccines currently in use in the world.</p>
+            </div>
+            <div class="w50">
+                <img src="images/world.jpg" class="img1">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="prevent" id="prevent">
+        <h1 class="prevent-heading">How to prevent from Covid-19</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="Covid Images/pre-6.png">
+                <h3>Always Wear a mask</h3>
+                <p>Always wear a face mask to protect against the Covid-19 virus. The face mask controls the entry of the virus into the body. The mask should be worn primarily to cover the nose and mouth.</p>
+            </div>
+
+            <div class="box">
+                <img src="Covid Images/pre-2.png">
+                <h3>Maintain your distance</h3>
+                <p>Health officials say keeping a distance of at least a meter can reduce the risk of contracting the virus. The virus can travel short distances in a short period of time so stay away from people as much as possible and carry out their daily activities.</p>
+            </div>
+
+            <div class="box">
+                <img src="Covid Images/pre-4.png">
+                <h3>Wash your hands</h3>
+                <p>The virus can be transmitted through physical devices or goods. Always wash your hands thoroughly with soap and water for at least twenty seconds when dealing closely with physical objects on a daily basis.</p>
+            </div>
+
+            <div class="box">
+                <img src="Covid Images/pre-3.png">
+                <h3>Don't touch your face</h3>
+                <p>Hand washing is not always possible. In such cases the virus may remain on the surface of the hands. The virus can only enter the body through the eyes, nose and mouth, so do not touch your face until you have cleaned your hands.</p>
+            </div>
+
+            <div class="box">
+                <img src="Covid Images/pre-1.png">
+                <h3>Keep your area clean</h3>
+                <p>The virus only exists if you have an unclean environment around you. Make sure you keep your belongings and other items as clean as possible. Clean them as often as possible</p>
+            </div>
+
+            <div class="box">
+                <img src="Covid Images/pre-5.png">
+                <h3>Use the elbow when coughing</h3>
+                <p>When you have a cough or sneeze, you can use your elbow to control the spread of saliva around. It can control the release of the virus into the environment, even if the person is infected with Covid.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="symptoms" id="symptoms">
+         <h1 class="heading">Covid-19 Symptoms</h1>
+         <div class="column">
+             <div class="main-image">
+                 <img src="Covid Images/main-symp-img.png">
+             </div>
+             <div class="box-container">
+                 <div class="box">
+                     <img src="Covid Images/symp-a.png">
+                     <h3>Dry Cough</h3>
+                 </div>
+                 <div class="box">
+                    <img src="Covid Images/symp-b.png">
+                    <h3>Sore thorat</h3>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/symp-c.png">
+                    <h3>Cold</h3>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/symp-d.png">
+                    <h3>Fever</h3>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/symp-e.png">
+                    <h3>Headache</h3>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/symp-f.png">
+                    <h3>Vomiting</h3>
+                </div>
+             </div>
+         </div>
+    </section>
+
+    <section class="precautions">
+        <h1 class="heading">Health precuations against Covid-19</h1>
+        <div class="column">
+            <div class="box-container">
+                <h3 class="title">Things you should do</h3>
+                <div class="box">
+                    <img src="Covid Images/do-img3.png">
+                    <div class="info">
+                        <h3>Wear a mask</h3>
+                        <p>Always wear a face mask to protect against the Covid-19 virus. The face mask controls the entry of the virus into the body. The mask should be worn primarily to cover the nose and mouth.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-a.png">
+                    <div class="info">
+                        <h3>Wash you hand always</h3>
+                        <p>The virus can be transmitted through physical devices or goods. Always wash your hands thoroughly with soap and water for at least twenty seconds when dealing closely with physical objects on a daily basis.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/stay.png">
+                    <div class="info">
+                        <h3>Stay at home</h3>
+                        <p>The fewer people you’re around, the lower your chance of infection. When you stay home, you help stop the spread to others, too. Try to stay out of crowded places. If your community is under shelter-in-place orders, follow guidelines for when you can go out.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <h3 class="title">Things you should not do</h3>
+                <div class="box">
+                    <img src="Covid Images/dont-img1.png">
+                    <div class="info">
+                        <h3>Avoid from your pets</h3>
+                        <p>Research has found that you can spread the virus even if you don’t have symptoms or up to 2 days before symptoms start. If you get sick, doctors can try to ease your symptoms, but they don’t have a proven treatment for the virus itself.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/dont-img2.png">
+                    <div class="info">
+                        <h3>Avoid from close contact</h3>
+                        <p>Follow your community guidelines for staying home.
+                            When you do go out in public, leave at least 6 feet of space between you and others.
+                            Don’t leave your house if you don’t feel well.The main way COVID-19 spreads is from person-to-person contact. “Contact” is more than touching. When someone coughs or sneezes near you, droplets from their nose and mouth go into the air. Droplets from a person with COVID-19 have the virus in them.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Covid Images/dont-img3.png">
+                    <div class="info">
+                        <h3>Avoid from crowded area</h3>
+                        <p> If you breathe the droplets in, the virus gets into your system.
+
+                            The CDC reports there is evidence the virus can be transmitted if you get within 6 feet of someone who is infectious for a total of 15 minutes throughout a day. It had previously been believed the exposure had to be 15 minutes at a time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="vaccines"> 
+        <div class="headwhite">
+            <h2>Vaccines</h2>
+            <p>The following are some of the major vaccines currently in use in the world.</p>   
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                
+                <h2>Sinopharm</h2><br>
+                <p>The WHO Strategic Advisory Group of Experts (SAGE) has issued interim recommendations for the use of the Sinopharm vaccine against COVID-19. This article provides a summary of those interim recommendations; you may access the full guidance document here.
+
+                    Here is what you need to know.
+                    
+                    This article provides a summary of the interim recommendations; the interim recommendations and the background document are also available online..</p>
+            </div>
+            <div class="serviceBx">
+               
+                <h2>Astra-Zenica</h2><br>
+                <p>Two doses of the AstraZeneca vaccine are required.
+
+                    From a regulatory perspective, the TGA has reviewed all the available evidence and determined that the AstraZeneca vaccine can be safely administered 4-12 weeks apart.
+                    
+                    People who have had the first dose of the AstraZeneca vaccine without any serious adverse effects should have the second dose. This includes under 60 years.</p>
+            </div>
+            <div class="serviceBx">
+                
+                <h2>Sputnik-V</h2><br>
+                <p>The Russian COVID-19 vaccine Sputnik V (Gam-COVID-Vac) is an adenoviral-based, two-part vaccine against the SARS-CoV-2 coronavirus. Initially produced in Russia, Sputnik V uses a weakened virus to deliver small parts of a pathogen and stimulate an immune response.
+
+                    The Sputnik V (Gam-COVID-Vac) vaccine reduces the time taken for the actual development of immunity to SARS-CoV-2, the virus behind the COVID-19 pandemic.</p>
+            </div>
+            <div class="serviceBx">
+               
+                <h2>Pfizer</h2><br>
+                <p>In the fight against COVID-19, a vaccine is a critical part of addressing the global health crisis by decreasing rates of infection, disease and death worldwide. Pfizer and BioNTech leveraged decades of scientific expertise to design and execute a rigorous Phase 3 clinical trial program to make the Pfizer-BioNTech COVID-19 Vaccine available as quickly and safely as possible.</p>
+            </div>
+            <div class="serviceBx">
+            
+                <h2>Moderna</h2><br>
+                <p>The Moderna COVID‑19 Vaccine has not been approved or licensed by the US Food and Drug Administration (FDA), but has been authorized for emergency use by FDA, under an Emergency Use Authorization (EUA), to prevent Coronavirus Disease 2019 (COVID‑19) for use in individuals 18 years of age and older.
+                    The EUA for the Moderna COVID‑19 Vaccine is in effect for the duration of the COVID‑19 EUA declaration justifying emergency use of the vaccine, unless terminated or revoked (after which the vaccine may no longer be used).</p>
+            </div>
+            <div class="serviceBx">
+    
+                <h2>J&J</h2><br>
+                <p>The Janssen COVID-19 Vaccine includes the following ingredients: <br> <br> <br>
+                    recombinant,
+                    replication-incompetent adenovirus type 26 expressing the SARS-CoV-2 spike protein, citric acid
+                    monohydrate, trisodium citrate dihydrate, ethanol, 2-hydroxypropyl-β-cyclodextrin (HBCD),
+                    polysorbate-80, sodium chloride.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hand-wash">
+        <h1 class="heading">Wash your hand Properly</h1>
+        <div class="column">
+            <div class="box-container">
+                <div class="box">
+                    <img src="Covid Images/wash-a.png">
+                    <h3>Soap and water</h3>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-b.png">
+                    <h3>Palm to palm</h3>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-c.png">
+                    <h3>Between your fingers</h3>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-d.png">
+                    <h3>Focus on thumbs</h3>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-e.png">
+                    <h3>Opposite of hands</h3>
+                </div>
+
+                <div class="box">
+                    <img src="Covid Images/wash-f.png">
+                    <h3>Focus on your wrist</h3>
+                </div>
+            </div>
+
+            <div class="main-image">
+                <img src="Covid Images/main-wash-img.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="Rate-us">
+        <div class="heading">
+            <h2>Rate us</h2>
+            <p>Send us your feedback that describe our services</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Us</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="Icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>0074-548-4545</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="Icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                                <div class="text">
+                                    <h3>Address</h3>
+                                    <p>NO210/A Pitipana,South,Homagama,Colombo</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="Icon">
+                                    <i class="fa fa-envelope-O"></i>
+                                </div>
+                                    <div class="text">
+                                        <h3>Email</h3>
+                                        <p>TheHealth ORG@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="formBx">
+                            <form>
+                                <h3>Feedback</h3>
+                                <input type="text" name="Name" placeholder="Enter your full name">
+                                <input type="email" name="Email" placeholder="Enter your E-mail">
+                                <input type="text" name="Address" placeholder="Enter your address">
+                                <textarea placeholder="Enter your feedback"></textarea>
+                                <input type="submit" value="Submit" name="Submit">
+                            </form>
+                        </div>
+                    </div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h2>The HealthORG</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elsdadsadasdasdsadsadit. Aliquam eum vel consequatur. Obcaecati rem eveniet tempora voluptas? Ratione, </p>
+            </div>
+            <div class="col">
+                <h3>Contact us <div class="underline"><span></span></div></h3>
+                <p>Homagama</p>
+                <p>Pitipana,South</p>
+                <p>10200, Delgahawaththa , Colombo</p>
+                <p class="email-id">The HealthORG@Gmail.com</p>
+                <h4>+94 7154865215</h4>
+            </div>
+            <div class="col">
+                <h3>Services <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="Coverpage.html">Home</a></li>
+                    <li><a href="Covid.html">Covid-19</a></li>
+                    <li><a href="#vaccines">Vaccines</a></li>
+                    <li><a href="WFP.html">WFP</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Health Deseases <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="cancer.html">Cancer</a></li>
+                    <li><a href="dengueFever.css">Dengue</a></li>
+                    <li><a href="kidney.html">Kidney</a></li>
+                    <li><a href="Diabetes.html">Diabetics</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Contact <div class="underline"><span></span></div></h3>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">The HealthORG &copy 2021 - All Rights Reserved</p>
+    </footer>
+    </body>
+</html>
